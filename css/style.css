@@ -15,6 +15,13 @@ a{
     text-decoration: none;
 }
 
+button{
+    border:none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
 /* UTILITIES */
 .flex{
     display: flex;
@@ -24,7 +31,7 @@ a{
 
 /* WEBAPP */
 #app{
-    min-height: 90vh;
+    min-height:calc(100vh - 90px);
     color: white;
     display: flex;
 }
@@ -41,20 +48,51 @@ a{
 }
 
 .nav__header{
-    height: 98%;
+    flex-grow: 1;
     
 }
-/* ESPERIMENTI */
+
+main{
+    flex-grow: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer{
     background-color: rgb(0, 0, 72);
     color: white;
-    padding: 35px 5px;
+    height: 90px;
     display: flex;
     justify-content: space-between;
-    
+    align-items: center;
+}
+
+.left,.right{
+    padding: 0 10px;
 }
 
 .footer__list{
     list-style: none;
+}
+
+/* ESPERIMENTI */
+.section__content__top{
+    padding: 10px 0;
+    background-color: rgb(0, 0, 56);
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.section__content{
+    background-color: cornflowerblue;
 }
