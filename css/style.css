@@ -54,6 +54,7 @@ button{
 
 main{
     flex-grow: 1;
+    background-color: cornflowerblue;
 }
 
 .section__content__top{
@@ -64,7 +65,6 @@ main{
 }
 
 .section__content{
-    background-color: cornflowerblue;
     padding: 20px;
 }
 
@@ -75,7 +75,8 @@ main{
 }
 
 .section__elements{
-    margin-right: 50px;
+    /* margin-right: 50px; */
+    flex-basis: calc((100% / 4) - 30px);
     padding: 0 10px;
     border-left: 2px solid white;
 }
