@@ -16,32 +16,45 @@ a{
 }
 
 /* UTILITIES */
-/* .flex{
+.flex{
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-} */
+    gap: 8px;
+}
 
 
 /* WEBAPP */
 #app{
-    height: 100vh;
-    
+    min-height: 90vh;
     color: white;
     display: flex;
 }
 
 #app header{
     flex-direction: column;
-    justify-content: space-between;
     background-color: black;
     padding: 20px;
     width: 250px;
 }
 
+.logo__header{
+    font-size: 30px;
+}
+
 .nav__header{
-    height: 100%;
+    height: 98%;
+    
 }
 /* ESPERIMENTI */
 
+footer{
+    background-color: rgb(0, 0, 72);
+    color: white;
+    padding: 35px 5px;
+    display: flex;
+    justify-content: space-between;
+    
+}
 
+.footer__list{
+    list-style: none;
+}
