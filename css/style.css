@@ -15,10 +15,18 @@ a{
     text-decoration: none;
 }
 
+/* UTILITIES */
+/* .flex{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+} */
+
+
 /* WEBAPP */
 #app{
     height: 100vh;
-    background-color: #333;
+    
     color: white;
     display: flex;
 }
@@ -30,3 +38,10 @@ a{
     padding: 20px;
     width: 250px;
 }
+
+.nav__header{
+    height: 100%;
+}
+/* ESPERIMENTI */
+
+
