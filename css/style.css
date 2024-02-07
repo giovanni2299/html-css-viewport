@@ -75,7 +75,6 @@ main{
 }
 
 .section__elements{
-    /* margin-right: 50px; */
     flex-basis: calc((100% / 4) - 30px);
     padding: 0 10px;
     border-left: 2px solid white;
@@ -85,7 +84,10 @@ main{
     margin-bottom: 20px;
 }
 
-
+.section__content ul{
+    margin-top: 20px;
+    padding-left: 30px;
+}
 
 
 
